@@ -1,7 +1,7 @@
 import cmd 
 
 class MyCmd(cmd.Cmd):
-    prompt = "k&d>> "  #the prompt attribute represents the command prompt string that is displayed to the user in a command-line interpreter.
+    prompt = "kc0des >> "  #the prompt attribute represents the command prompt string that is displayed to the user in a command-line interpreter.
     doc_header = "MyCmd - Custom Command-Line Interpreter" # It represents the header text that is displayed at the top of the help documentation for the command-line interpreter.
     undoc_header = "Undocumented Commands:"
     ruler = "="  # Custom ruler character in the help documentation
@@ -10,7 +10,7 @@ class MyCmd(cmd.Cmd):
 
 
     def do_authors(self, line):
-        print("Davis and Kingsley are the authors of MyCmd")
+        print("Kayc0des is the author of MyCmd")
 
     def do_hello(self, line):
         print("Hello, world!")
